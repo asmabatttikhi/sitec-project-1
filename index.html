@@ -1,0 +1,38 @@
+﻿<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="this is Mood Tracker">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <title>Mood Tracker</title>
+    </head>
+
+    <body>
+        <div class="container">
+            <h1>Mood Tracker</h1>
+    
+            <!-- Mood Input Form -->
+            <form method="POST">
+                <label for="mood">Select Your Mood:</label>
+                <select name="mood" id="mood" required>
+                    <option value="Happy">Happy</option>
+                    <option value="Sad">Sad</option>
+                    <option value="Stressed">Stressed</option>
+                    <option value="Relaxed">Relaxed</option>
+                    <option value="Excited">Excited</option>
+                </select>
+                <label for="date">Date:</label>
+                <input type="date" name="date" required>
+                <button type="submit">Submit</button>
+            </form>
+    
+            <!-- Mood Percentages--> 
+            
+    
+            <!-- Clear Data -->
+            <button id="clear-data">Clear Data</button>
+        </div>
+    
+    </body>
+</html>
